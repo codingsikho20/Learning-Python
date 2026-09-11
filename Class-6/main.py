@@ -27,3 +27,15 @@ else:
 
     "even" if 10 % 2 == 0 else "odd"
     print("The number is even." if 10 % 2 == 0 else "The number is odd.")
+
+a = 10
+b = 40
+c = 30
+
+if a > b and a > c:
+    print("A is the largest number")
+
+elif b > a and b > c:
+    print("B is the largeat number")
+
+

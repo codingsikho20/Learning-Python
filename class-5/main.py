@@ -43,9 +43,3 @@ print("A is not greater than b: ", not(a > b))
 
 a = int(input("Enter a number: "))
 
-
-age = int(input("Enter your age: "))
-if age >= 18:
-    pass
-else:
-    print("You are not eligible to vote.")

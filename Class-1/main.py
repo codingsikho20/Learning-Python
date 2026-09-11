@@ -1,1 +1,1 @@
-print('Namste Duniya!')
+print('Namste Duniya!');
