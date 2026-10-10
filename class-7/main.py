@@ -15,7 +15,22 @@
 #for i in range(5, 51, 5):
  #   print(i)
 
-n = int(input("Enter a number: "))
+# n = int(input("Enter a number: "))
 
-for i in range(n,(n*10)+1, n):
-    print(i)
+# for i in range(n,(n*10)+1, n):
+#     print(i)
+
+
+# Reverse Learning
+
+# for loop in python
+
+# ran = range(1, 101, 1)
+
+# for i in ran:
+#     print("Inkalam jindabad raja ji!")
+
+# for i in range(10, 41, 1):
+#     print(i)
+
+# for i in range(40, 9, -1):

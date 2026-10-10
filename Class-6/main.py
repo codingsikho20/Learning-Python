@@ -39,3 +39,13 @@ elif b > a and b > c:
     print("B is the largeat number")
 
 
+#Repeat question
+
+# Question no 1.
+a = float(input("Please tell me first number: "))
+b = float(input("Please tell me second number: "))
+
+if a > b:
+    print(f"{a} is greter then {b}")
+elif b > a:
+    print(f"{b} is greater then {a}")
