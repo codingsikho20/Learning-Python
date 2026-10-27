@@ -50,13 +50,52 @@
 # question no4. check if list is sorted (Increasing)
 # verify wheather the list elements are in ascending order.
 
-a = [12, 13, 14, 15, 16, 17, 18, 19, 23, 43, 45, 55, 67]
+# a = [12, 13, 14, 15, 16, 17, 18, 19, 23, 43, 45, 55, 67]
 
-for i in range(len(a)-1):
-    if a[i] < a[i + 1]:
-        continue
-    else:
-        print("your list is not sorted in ascending order")
-        break
-else:
-    print("your list is sorted in ascending order")
+# for i in range(len(a)-1):
+#     if a[i] < a[i + 1]:
+#         continue
+#     else:
+#         print("your list is not sorted in ascending order")
+#         break
+# else:2
+#     print("your list is sorted in ascending order")
+
+# question no5. left rotation by list
+# shift all elements one position to the left, with the first elemrnt to the end.
+
+# a = [10, 20, 30, 40, 50]
+
+# for i in range(len(a)-1):
+#     a[i], a[i+1] = a[i+1], a[i]
+
+# print(a)
+
+# k = int(input("how many times you want to rotate :"))
+# a = [10, 20, 30, 40, 50]
+
+# for j in range(k):
+#     for i in range(len(a)-1):
+#         a[i], a[i+1] = a[i+1], a[i]
+
+# print(a)
+
+# question no6. right rotation by list
+
+# a = [10, 20, 30, 40, 50]
+
+# for i in range(len(a)-1, 0, -1):
+#     a[i], a[i-1] = a[i-1], a[i]
+
+# print(a)
+
+# question no7. Reverse list in-place
+# reverse the entire list without using extra space. (i.e. swap elements)
+
+a = [10, 20, 30, 40, 50]
+b = len(a)-1
+
+for i in range(len(a)//2):
+    a[i], a[i+b] = a[b], a[i]
+    b = b -1
+
